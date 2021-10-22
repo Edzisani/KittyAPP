@@ -22,6 +22,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
+            android:contentDescription="@string/kitten_image"
             android:src="@drawable/ic_launcher_foreground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/breed"
@@ -30,8 +31,7 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0"
             app:layout_constraintWidth_percent=".3"
-            tools:ignore="ImageContrastCheck"
-            android:contentDescription="@string/todo" />
+            tools:ignore="ImageContrastCheck" />
 
         <TextView
             android:id="@+id/breed"

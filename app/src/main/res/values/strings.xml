@@ -8,7 +8,8 @@
     <string name="open">OPEN</string>
     <string name="welcome_to_the_adoption_store">Welcome to the Adoption Store</string>
     <string name="the_20_available_cats_for_adoption">The 20 available cats for adoption</string>
+    <string name="learn_about_breeds">Learn more about cat breeds</string>
     <string name="search_here">Search Here</string>
-    <string name="todo">TODO</string>
+    <string name="kitten_image">Kitten Image</string>
     <string name="cat_details">Cat Details</string>
 </resources>

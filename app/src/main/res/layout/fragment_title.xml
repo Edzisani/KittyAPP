@@ -5,9 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/teal_700"
-    android:backgroundTint="@color/purple_200"
+    android:backgroundTint="@android:color/secondary_text_dark"
     tools:context=".overview.titleFragment">
-
 
 
     <TextView
@@ -18,8 +17,10 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:text="@string/welcome_to_the_adoption_store"
+        android:fontFamily="casual"
+        android:text="@string/learn_about_breeds"
         android:textColor="#311B92"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +45,7 @@
         android:id="@+id/imageView"
         android:layout_width="326dp"
         android:layout_height="263dp"
+        android:contentDescription="@string/kitten_image"
         android:scaleType="centerCrop"
         android:src="@drawable/catimage"
         app:layout_constraintBottom_toTopOf="@+id/txtViewTitle"
