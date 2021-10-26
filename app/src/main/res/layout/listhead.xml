@@ -24,7 +24,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="AVAILABLE CATS FOR ADOPTION"
+                android:text="@string/cat_breed_wiki"
                 android:textColor="#fff"
                 android:textSize="18sp"
                 android:textStyle="bold"></androidx.appcompat.widget.AppCompatTextView>
