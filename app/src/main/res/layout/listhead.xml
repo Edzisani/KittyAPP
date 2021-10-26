@@ -26,7 +26,7 @@
                 android:gravity="center"
                 android:text="@string/cat_breed_wiki"
                 android:textColor="#fff"
-                android:textSize="18sp"
+                android:textSize="31sp"
                 android:textStyle="bold"></androidx.appcompat.widget.AppCompatTextView>
 
         </LinearLayout>
