@@ -34,7 +34,7 @@ class HomeFragmentViewModel: ViewModel() {
 
 
         // asking for 20 cats.
-        latestCatCall = kittyRepository.getCats(20, null, null).subscribeOn(Schedulers.io())
+        latestCatCall = kittyRepository.getCats(60, null).subscribeOn(Schedulers.io())
             .doOnSubscribe {
                 compositeDisposableOnDestroy.add(it)
             }

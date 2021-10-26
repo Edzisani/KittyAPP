@@ -53,7 +53,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
 
 
-        this.binding.getMoreCatsButton.setOnClickListener {
+        this.binding.refreshButton.setOnClickListener {
             viewModel.getSomeCats()
         }
     }
@@ -75,9 +75,8 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             "Got ${catsRetrieved.size} cats",
             Toast.LENGTH_SHORT
         ).show()
-
         recyclerView = findViewById(R.id.recyclerView)
-        myAdapter = DataAdapter(catsRetrieved, requireActivity())
+        myAdapter = DataAdapter(catsRetrieved)
         recyclerView.adapter = myAdapter
         recyclerView.layoutManager =
             LinearLayoutManager(requireActivity(), LinearLayoutManager.VERTICAL, false)
@@ -104,7 +103,6 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
 
 
     }
-
     private fun showFailedResponse() {
 
     }

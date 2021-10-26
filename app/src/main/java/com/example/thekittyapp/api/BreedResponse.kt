@@ -3,32 +3,58 @@ package com.example.thekittyapp.api
 import com.example.thekittyapp.models.Breed
 import com.example.thekittyapp.models.BreedResponseItem
 import com.example.thekittyapp.models.Image
+import com.example.thekittyapp.models.Weight
 import com.google.gson.annotations.SerializedName
 import com.squareup.moshi.Json
 
 
 
 data class BreedResponse(
-//    @SerializedName("id") val id:String,
+//    val breeds:ArrayList<BreedResponseItem>,
+//    val height:String,
+//    @SerializedName("id") val id: String,
+//   //val id:String,
+//    //@Json(name="url") val url:String,
 //    @SerializedName( "url") val url:String,
-//    @SerializedName("breeds") val breeds:List<BreedResponseItem>,
-//    @SerializedName("categories") val categories:List<Any>,
-    val breeds:ArrayList<BreedResponseItem>,
-    val height:String,
-    val id:String,
-    @Json(name="url") val url:String,
-// @SerializedName( "url") val url:String,
-    val width:String,
+//    val width:String,
+
+    val adaptability: Int,
+    val affection_level: Int,
+    val alt_names: String,
+    val cfa_url: String,
+    val child_friendly: Int,
+    val country_code: String,
+    val country_codes: String,
+    val description: String,
+    val dog_friendly: Int,
+    val energy_level: Int,
+    val experimental: Int,
+    val grooming: Int,
+    val hairless: Int,
+    val health_issues: Int,
+    val hypoallergenic: Int,
+    val id: String,
+    val indoor: Int,
+    val intelligence: Int,
+    val lap: Int,
+    val life_span: String,
+    val name: String,
+    val natural: Int,
+    val origin: String,
+    val rare: Int,
+    val reference_image_id: String,
+    val rex: Int,
+    val shedding_level: Int,
+    val short_legs: Int,
+    val social_needs: Int,
+    val stranger_friendly: Int,
+    val suppressed_tail: Int,
+    val temperament: String,
+    val vcahospitals_url: String,
+    val vetstreet_url: String,
+    val vocalisation: Int,
+    val weight: Weight,
+    val wikipedia_url: String
 
     )
 
-//){
-//    override fun toString():String{
-//        return "BreedResponse(id='$id', url='$url',breeds=$breeds,categories=$categories)"
-//    }
-//}
-//val id:String,
-//@Json(name="url") val url:String,
-//// @SerializedName( "url") val url:String,
-//val breeds:List<BreedResponseItem>,
-//val categories:List<Any>,

@@ -1,5 +1,3 @@
-import android.content.Context
-import android.net.Uri
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
@@ -10,12 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.thekittyapp.R
 import com.example.thekittyapp.api.BreedResponse
-import com.example.thekittyapp.databinding.ActivityMainBinding
-import com.example.thekittyapp.models.Breed
-import com.example.thekittyapp.models.BreedResponseItem
-import java.net.URI
 
-class DataAdapter(private var dataList: List < BreedResponse >, private val context: Context):
+class DataAdapter(private var dataList: List<BreedResponse>):
     RecyclerView.Adapter < DataAdapter.ViewHolder > () {
 
 
@@ -39,12 +33,13 @@ class DataAdapter(private var dataList: List < BreedResponse >, private val cont
             val imageView = itemLayoutView.findViewById<ImageView>(R.id.imageView)
             val description = itemLayoutView.findViewById<TextView>(R.id.response_TextView)
 
-            title.text = breedResponse.breeds.first().name
+            title.text = breedResponse.name
+            description.text = breedResponse.description
 
-            description.text = breedResponse.breeds.first().description
-
+//            title.text = breedResponse.breeds.first().name
+//            description.text = breedResponse.breeds.first().description
             Glide.with(itemLayoutView.context)
-                .load(breedResponse.url)
+                .load(breedResponse.wikipedia_url)
                 .fitCenter()
                 .into(imageView)
         }
