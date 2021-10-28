@@ -30,6 +30,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
     companion object {
         // the server url endpoint
         const val serverUrl = "https://api.thecatapi.com/v1/"
+        //custom api key changed
         const val apiKey = "a60e81d3-735f-4bdd-8adb-cd618f0ce4cb"
     }
 
