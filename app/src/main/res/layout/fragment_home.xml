@@ -83,7 +83,6 @@
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/main_list_head"
-        android:background="@color/purple_200"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_below="@id/main_list_head"></androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
 

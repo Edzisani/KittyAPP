@@ -17,6 +17,7 @@ data class BreedResponseItem(
     val health_issues: Int,
     val hypoallergenic: Int,
     val id: String,
+    val image: Image,
     val indoor: Int,
     val intelligence: Int,
     val lap: Int,
@@ -36,5 +37,6 @@ data class BreedResponseItem(
     val vcahospitals_url: String,
     val vetstreet_url: String,
     val vocalisation: Int,
+    val weight: Weight,
     val wikipedia_url: String
 )
