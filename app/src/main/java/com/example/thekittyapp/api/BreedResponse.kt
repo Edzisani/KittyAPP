@@ -1,13 +1,5 @@
 package com.example.thekittyapp.api
 
-import com.example.thekittyapp.models.Breed
-import com.example.thekittyapp.models.BreedResponseItem
-import com.example.thekittyapp.models.Image
-import com.example.thekittyapp.models.Weight
-import com.google.gson.annotations.SerializedName
-import com.squareup.moshi.Json
-
-
 
 data class BreedResponse(
 //    val breeds:ArrayList<BreedResponseItem>,
@@ -53,7 +45,6 @@ data class BreedResponse(
     val vcahospitals_url: String,
     val vetstreet_url: String,
     val vocalisation: Int,
-    val weight: Weight,
     val wikipedia_url: String
 
     )
