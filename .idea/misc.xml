@@ -5,11 +5,14 @@
       <map>
         <entry key="../../../../../layout/custom_preview.xml" value="0.31979166666666664" />
         <entry key="../../../../layout/custom_preview.xml" value="0.20666666666666667" />
+        <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2195" />
         <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/layout/activity_main.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/layout/fragment_home.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/layout/fragment_title.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/layout/listcard.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/layout/listhead.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2195" />
+        <entry key="..\:/Users/Edzisani Nematoka/Desktop/ANDROID/KittyAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_cat_item_list.xml" value="0.31929347826086957" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.375" />
