@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+
+    <!-- app bar with Toolbar is the actual text and the action items -->
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/myNavHostFragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
@@ -14,23 +16,22 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/navigation" />
 
-
-
-    <!-- app bar with Toolbar is the actual text and the action items -->
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay">
+
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
+            android:background="@color/material_on_primary_emphasis_medium"
             app:popupTheme="@style/AppTheme.PopupOverlay">
+
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/navLogoIv"
@@ -82,7 +83,10 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/main_list_head"></androidx.recyclerview.widget.RecyclerView>
+        android:layout_height="660dp"
+        android:layout_below="@+id/appBar"
+        android:layout_alignTop="@+id/main_list_head"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="0dp"></androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
 
